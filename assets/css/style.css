@@ -1,0 +1,168 @@
+.margen-hero {
+    margin-top: 160px;
+}
+
+.margen-button {
+    margin-bottom: 110px;
+}
+
+.img-back {
+   /* background-image: url(../img/backgound.png);*/
+    background-color: #322319;;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+   .o{ 
+    color: rgb(19, 18, 18);
+   }
+  .accordion {
+    --bs-accordion-active-bg: #E5E5E5;
+    --bs-accordion-btn-focus-box-shadow: #1e8328;
+  }
+
+  .p {
+    color:  rgb(255, 255, 255);;
+  }
+ 
+
+  span{ 
+    color: rgb(238, 142, 53);
+   }
+
+   .naranjo{ 
+    color: #322319;
+   }
+
+   .main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.main img{
+  width: 453px;
+  float: right;
+  margin-left: 20%;
+}
+
+.headerimg{
+  border: solid 10px #fff;
+  transform: translateY(5px);
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px #555;
+}
+
+@media (max-width: 768px) {
+  .info-content h1 {
+      font-size: 28px;
+  }
+  .intro-desc {
+      font-size: 16px;
+  }
+  .intro-desc .colour-splash {
+      font-size: 18px;
+  }
+}
+
+.about-info{
+  grid-column: 5/10;
+  padding: 3em;
+}
+
+.about-info h2{
+  font-size: 2em;
+  color: #191c32;
+}
+
+.wrapper{
+  width: 100vw;
+  height:80vh;
+  background-color: #322319;
+  color: #fff;
+
+}
+
+.intro-desc .colour-splash {
+  color: #fff; 
+  font-size: 20px; 
+  line-height: 18px; 
+}
+
+.intro-desc {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+  margin-left: 5%;
+}
+.intro-desc span {
+  display: inline-block; 
+  margin-right: 5px; 
+}
+
+.intro-desc .colour-splash {
+  color: #fff; 
+  font-size: 20px; 
+  line-height: 18px; 
+}
+
+.main{
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+}
+
+
+.about{
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+  width: 100vw;
+  align-items: center;
+}
+
+.about img{
+  width: 60%;
+  grid-column: 1/5;
+}
+.about-info{
+  grid-column: 5/10;
+  padding: 3em;
+}
+
+.about-info h2{
+  font-size: 2em;
+  color: #191c32;
+}
+.about p{
+  margin-bottom: 1em;
+}
+.about{
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+  width: 100vw;
+  align-items: center;
+}
+.about img{
+  width: 60%;
+  grid-column: 1/5;
+}
+.about-info{
+  grid-column: 5/10;
+  padding: 3em;
+}
+
+.about-info h2{
+  font-size: 2em;
+  color: #191c32;
+}
